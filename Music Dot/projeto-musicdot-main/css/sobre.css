@@ -1,0 +1,190 @@
+body {
+    font-family: Helvetica, "Lucida Grande", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.titulo {
+    font-size: 2.5rem;   
+    margin-bottom: 1rem;
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 0.5rem;
+}
+
+.titulo::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;           
+    height: 3px;           
+    background-color: #333;
+}
+
+
+.subtitulo,
+.subtitulo__contato {
+    font-size: 2rem;   
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    position: relative;
+    padding-bottom: 0.4rem;
+    font-weight: 600;
+}
+
+.subtitulo::after,
+.subtitulo__contato::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;   
+    background-color: #666;
+}
+
+
+figure {
+    text-align: center;
+    background-color: whitesmoke;
+    color: #3d3d3d;
+    padding: 15px;
+    margin: 30px;
+}
+
+
+figcaption {
+    margin-top: 10px;
+}
+
+
+#figuramatriz {
+    width: 550px;
+    margin: 0 auto;
+}
+
+#figurafamilia {
+    width: 375px;
+    float: right;
+}
+
+
+figure img {
+    height: inherit;
+    width: inherit;
+    border: 3px solid #ddd;      
+    border-radius: 6px;          
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); 
+}
+
+.subtitulo__contato {
+    display: inline;
+}
+
+.contato__info {
+    margin: 16px 0 24px;
+    padding: 32px;
+}
+
+.contato__info-titulo,
+.contato__info-descricao {
+    display: inline;
+}
+
+.contato__info-descricao {
+    margin-left: 10px;
+}
+
+.contato__secao {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 16px;
+}
+
+.contato__secao-telefone {
+    margin-left: 32px;
+}
+
+
+.rodape {
+    padding: 1.75em 0;
+    font-size: 1.1rem;
+}
+
+.rodape__logo {
+    width: 6em;
+}
+
+.rodape__copyright {
+    display: inline;
+    margin-left: 1em;
+}
+
+
+@media (max-width: 850px) {
+  .contato__secao {
+    display: block;
+    margin-left: 1em;
+  }
+}
+
+@media (max-width: 622px) {
+  .familia-tupfeln {
+    float: none;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 446px) {
+  .contato__subtitulo {
+    display: block;
+    margin-bottom: 0;
+  }
+
+  .contato__info {
+    padding-left: 5px;
+    font-size: .92em;
+    border-left: 2px solid lightgray;
+  }
+
+  .rodape {
+    font-size: .92em;
+  }
+}
+
+@media (max-width: 342px) {
+  .contato__info-descricao {
+    display: block;
+    margin-left: 1em;
+  }
+}
+
+.cabecalho__item-menu a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 10px;
+  transition: color 0.3s ease;
+}
+
+
+
+.cabecalho__item-menu a[href*="sobre"] {
+  color: #1e1e1e; 
+}
+
+.cabecalho__item-menu a[href*="login"] {
+  color:#1e1e1e; 
+}
+
+.cabecalho__item-menu--matricular a {
+  color: #1e1e1e; 
+}
+
+
+.cabecalho__item-menu a:hover {
+  color: #b81414;
+}

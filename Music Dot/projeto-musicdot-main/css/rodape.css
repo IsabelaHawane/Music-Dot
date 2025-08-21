@@ -1,0 +1,160 @@
+.rodape {
+  background: #fff;
+  padding: 40px 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 40px;
+  align-items: flex-start;
+  text-align: left;
+  font-size: 0.9rem;
+}
+
+.rodape__logo {
+  width: 11.25em;
+  margin-bottom: 1em;
+}
+
+.rodape__infos-empresa {
+  line-height: 1.5;
+}
+
+.rodape__lista-midias-sociais {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.rodape__item-midias-sociais {
+  width: 2.62em;
+  margin: 0 0.25em;
+}
+
+.rodape__item-midias-sociais img {
+  width: 100%;
+}
+
+.rodape__titulo {
+  margin-bottom: 1em;
+  font-size: 1.45em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.rodape__item-lista a {
+  color: #1e2a3a;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.rodape__item-lista a:hover {
+  color: #b81414;
+}
+
+@media (max-width: 640px) {
+  .rodape__secao + .rodape__secao {
+    margin-top: 2em;
+  }
+}
+
+@media (min-width: 640px) {
+  .rodape {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    font-size: 1rem;
+  }
+
+  .rodape__secao--sobre,
+  .rodape__secao--cursos,
+  .rodape__secao--links,
+  .rodape__secao--newsletter {
+    width: 45%;
+  }
+
+  .rodape__secao--cursos {
+    order: 1;
+    margin: 0;
+  }
+
+  .rodape__secao--links {
+    order: 2;
+    margin: 0;
+  }
+
+  .rodape__secao--sobre {
+    order: 3;
+    margin-top: 2em;
+  }
+
+  .rodape__secao--newsletter {
+    order: 4;
+    margin-top: 2em;
+  }
+}
+.form-newsletter {
+  display: flex;
+  margin-top: 10px;
+  max-width: 300px;
+}
+
+.form-newsletter__campo {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #b81414;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+
+.form-newsletter__botao {
+  background: #e53935;
+  border: none;
+  padding: 0 20px;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.form-newsletter__botao:hover {
+  background: #c62828;
+}
+.contato {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.contato__secao {
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.titulo {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.subtitulo__contato {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.contato__info,
+.contato__info a {
+  font-size: 1em;
+  color: #333;
+  text-decoration: none;
+  line-height: 1.6;
+}
+
+.contato__info a:hover {
+  text-decoration: underline;
+}
+
+.contato__info-descricao {
+  margin-bottom: 10px;
+}

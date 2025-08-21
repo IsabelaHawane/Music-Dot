@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Musicdot</title>
+  <link rel="stylesheet" href="css/principal.css">
+  <link rel="icon" href="img/favicon.ico">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,&display=block">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/cabecalho.css">
+  <link rel="stylesheet" href="css/form-newsletter.css">
+  <link rel="stylesheet" href="css/rodape.css">
+  <style>
+    .contato {
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .contato__secao {
+      margin-bottom: 30px;
+      text-align: left;
+    }
+
+    .titulo {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+
+    .subtitulo__contato {
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+
+    .contato__info,
+    .contato__info a {
+      font-size: 1em;
+      color: #333;
+      text-decoration: none;
+    }
+
+    .contato__info a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header class="cabecalho">
+    <a href="index.html">
+      <img class="cabecalho__logo" src="img/musicdot-logo-light.svg" title="Ir para a página inicial da Musicdot" alt="Musicdot">
+    </a>
+    <nav>
+      <ul class="cabecalho__menu">
+        <li class="cabecalho__item-menu"><a href="sobre.html#Sobre">Sobre</a></li>
+        <li class="cabecalho__item-menu"><a href="login.html#Entrar">Entrar</a></li>
+        <li class="cabecalho__item-menu cabecalho__item-menu--matricular"><a href="matricule-se.html#Matricule-se">Matricule-se</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="principal">
+    <section class="principal__destaque">
+      <div class="principal__video">
+        <video controls poster="img/thumb-video.jpg">
+          <source src="video/video-promocional.mp4" type="video/mp4">
+          Seu navegador não suporta vídeo.
+        </video>
+      </div>
+      <h1 class="principal__titulo">Aprenda música de verdade com a MusicDot</h1>
+      <p class="principal__descricao">
+        Cursos online de música para todos os níveis: do iniciante ao avançado.
+      </p>
+      <a href="#" class="principal__botao">Matricule-se agora</a>
+    </section>
+
+    <section class="principal__cursos">
+      <h2 class="principal__subtitulo">Cursos em destaque</h2>
+      <ul class="principal__lista-cursos">
+        <li>
+          <img src="img/icone-teclado-piano.svg" alt="Piano">
+          <h3>Teclado & Piano</h3>
+          <p>Do básico ao avançado.</p>
+        </li>
+        <li>
+          <img src="img/icones-violao-guitarra.svg" alt="Violão e Guitarra">
+          <h3>Violão & Guitarra</h3>
+          <p>Ritmos, solos e harmonia.</p>
+        </li>
+        <li>
+          <img src="img/icones-canto.svg" alt="Canto">
+          <h3>Canto</h3>
+          <p>Treine sua voz com técnica.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="principal__beneficios">
+      <h2>Por que escolher a MusicDot?</h2>
+      <ul>
+        <li><img src="img/icone-aula.svg" alt=""> Aulas práticas e didáticas</li>
+        <li><img src="img/icone-download.svg" alt=""> Materiais de apoio</li>
+        <li><img src="img/icone-professor.svg" alt=""> Professores especialistas</li>
+        <li><img src="img/icone-relogio.svg" alt=""> Acesso ilimitado 24h</li>
+      </ul>
+    </section>
+
+    <section class="principal__depoimentos">
+      <h2>O que nossos alunos dizem</h2>
+      <article>
+        <p>"Graças à MusicDot consegui tocar minhas primeiras músicas em apenas 1 mês!"</p>
+        <span>- João Silva</span>
+      </article>
+      <article>
+        <p>"As aulas de canto transformaram minha voz e minha confiança."</p>
+        <span>- Maria Oliveira</span>
+      </article>
+    </section>
+  </main>
+
+
+  <section class="contato">
+    <h2 class="titulo">Contato</h2>
+
+    <div class="contato__container">
+        <div class="contato__secao">
+            <h3 class="subtitulo__contato">Correspondência</h3>
+            <small>(todos os dias, das 9h às 18h)</small>
+            <address class="contato__info">
+                AOVS Sistemas de Informática S.A<br>
+                Rua Vergueiro, 3185, 8º andar<br>
+                Vila Mariana<br>
+                São Paulo - SP
+            </address>
+        </div>
+
+        <div class="contato__secao contato__secao-telefone">
+            <h3 class="subtitulo__contato">Telefones</h3>
+            <small>(Segunda a Sexta-Feira, das 9h às 18h)</small>
+            <dl class="contato__info">
+                <dt class="contato__info-titulo">Pessoa Física</dt>
+                <dd class="contato__info-descricao"><a href="tel://114118-3319">(11) 4118-3319</a></dd>
+
+                <dt class="contato__info-titulo">Pessoa Jurídica:</dt>
+                <dd class="contato__info-descricao"><a href="tel://114118-7229">(11) 4118-7229</a></dd>
+            </dl>
+        </div>
+    </div>
+</section>
+
+
+  <footer class="rodape">
+    <section class="rodape__secao rodape__secao--sobre">
+      <img class="rodape__logo" src="img/logo.svg" alt="Logo da MusicDot">
+      <p class="rodape__infos-empresa">
+        AOVS Sistemas de Informática S.A.<br>
+        CNPJ 05.555.382/0001-33<br>
+        Rua Vergueiro - São Paulo/SP<br>
+        Telefone (11) 4118-3319
+      </p>
+      <ul class="rodape__lista-midias-sociais">
+        <li><a href="https://www.facebook.com/musicdotonline"><img src="img/footer-icone-facebook.svg" alt="Facebook"></a></li>
+        <li><a href="https://www.youtube.com/user/musicdotonline"><img src="img/footer-icone-youtube.svg" alt="YouTube"></a></li>
+        <li><a href="https://www.instagram.com/musicdotonline/"><img src="img/footer-icone-instagram.svg" alt="Instagram"></a></li>
+      </ul>
+    </section>
+
+    <section class="rodape__secao rodape__secao--cursos">
+      <h2 class="rodape__titulo">Cursos da MusicDot</h2>
+      <nav>
+        <ul>
+          <li><a href="#">Cursos de Teclado & Piano</a></li>
+          <li><a href="#">Cursos de Violão/Guitarra</a></li>
+          <li><a href="#">Cursos de Baixo</a></li>
+          <li><a href="#">Cursos de Bateria</a></li>
+          <li><a href="#">Cursos de Percussão</a></li>
+          <li><a href="#">Cursos de Canto</a></li>
+          <li><a href="#">Cursos de Áudio</a></li>
+          <li><a href="#">Cursos de Teoria</a></li>
+          <li><a href="#">Cursos de Sopro</a></li>
+          <li><a href="#">Cursos de Cordas</a></li>
+        </ul>
+      </nav>
+    </section>
+
+    <section class="rodape__secao rodape__secao--links">
+      <h2 class="rodape__titulo">MusicDot</h2>
+      <nav>
+        <ul>
+          <li><a href="#">Apostila</a></li>
+          <li><a href="#">E-book</a></li>
+          <li><a href="#">Login</a></li>
+          <li><a href="#">Matricule-se</a></li>
+          <li><a href="#">Perguntas frequentes</a></li>
+          <li><a href="#">Para Escolas</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </nav>
+    </section>
+
+    <section class="rodape__secao rodape__secao--newsletter">
+      <h2 class="rodape__titulo">Receba novidades e lançamentos</h2>
+      <form action="#" method="get" class="form-newsletter">
+        <label for="email-newsletter" class="form-newsletter__label">Seu email pessoal</label>
+        <input id="email-newsletter" name="email-newsletter" type="email" class="form-newsletter__campo">
+        <button type="submit" class="form-newsletter__botao">OK</button>
+      </form>
+    </section>
+  </footer>
+</body>
+</html>

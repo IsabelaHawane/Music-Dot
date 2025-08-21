@@ -1,0 +1,137 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #fff;
+  color: #222;
+  margin: 0;
+}
+
+
+.cabecalho {
+  width: 100%;
+  background: #2D5377;;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  box-sizing: border-box;
+}
+
+.cabecalho__logo {
+  height: 40px;
+  max-width: 100%;
+}
+
+.cabecalho__menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap; 
+}
+
+.cabecalho__item-menu a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.cabecalho__item-menu a:hover {
+  color: #427aaf;;
+}
+
+.cabecalho__item-menu--matricular a {
+  color: #fff;
+}
+
+
+main {
+  margin-top: 80px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 80px);
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+
+.chat-container {
+  width: 100%;
+  max-width: 500px;
+  background: #2D5377;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(0,0,0,0.4);
+}
+
+
+.chat-box {
+  flex: 1;
+  padding: 15px;
+  overflow-y: auto;
+  scroll-behavior: smooth; /
+}
+
+
+.message {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 8px;
+  max-width: 80%;
+  opacity: 0;
+  transform: translateY(10px);
+  animation: fadeInUp 0.4s ease forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.bot {
+  background: #427aaf;
+  align-self: flex-start;
+}
+
+.user {
+  background: #fff;
+  align-self: flex-end;
+}
+
+/* FORMULÁRIO */
+.chat-form {
+  display: flex;
+  border-top: 1px solid #2D5377
+}
+
+.chat-form input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background: #fff;
+  color: #121212;
+}
+
+.chat-form button {
+  padding: 10px 20px;
+  border: none;
+  background: #b81414;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.chat-form button:hover {
+  background: #43a047;
+}

@@ -1,0 +1,114 @@
+.login-box {
+  text-align: center;
+  margin: 4rem auto;
+  max-width: 360px;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+  font-family: Helvetica, Arial, sans-serif;
+}
+.login-box__logo {
+  width: 80px;
+  margin-bottom: 0.5rem;
+}
+
+.login-box__titulo {
+  font-size: 1.4rem;
+  color: #2d2d2d;
+  margin-bottom: 2rem;
+}
+.login__form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  text-align: left;
+}
+
+.login__form label {
+  font-weight: bold;
+}
+
+.login__form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  width: 100%;
+}
+.login-box__form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  text-align: left;
+}
+
+.login-box__form label {
+  font-weight: bold;
+  color: #333;
+  font-size: 0.95rem;
+}
+.login-box__form input {
+  padding: 10px;
+  border: 1px solid #cdd7f3;
+  border-radius: 6px;
+  font-size: 1rem;
+  background-color: #f3f7ff;
+}
+
+/* Link esqueceu a senha */
+.login-box__link {
+  font-size: 0.9rem;
+  text-align: right;
+  margin-top: 0.3rem;
+  color: #0056ff;
+  text-decoration: none;
+}
+.login-box__botao {
+  margin-top: 1rem;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #0056ff; /* azul estilo do print */
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.login-box__link:hover {
+  text-decoration: underline;
+}
+.login__botao:hover {
+  background-color: #555;
+}
+
+.login-box__botao:hover {
+  background-color: #0040c9;
+}
+.cabecalho__item-menu a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 10px;
+  transition: color 0.3s ease;
+}
+
+
+
+.cabecalho__item-menu a[href*="sobre"] {
+  color: #1e1e1e; 
+}
+
+.cabecalho__item-menu a[href*="login"] {
+  color:#1e1e1e; 
+}
+
+.cabecalho__item-menu--matricular a {
+  color: #1e1e1e; 
+}
+
+
+.cabecalho__item-menu a:hover {
+  color: #b81414;
+}

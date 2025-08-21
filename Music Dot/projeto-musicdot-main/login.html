@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MusicDot | Login</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/cabecalho.css">
+    <link rel="stylesheet" href="css/rodape.css">
+    <link rel="stylesheet" href="css/form-newsletter.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <a href="index.html">
+            <img class="cabecalho__logo" src="img/musicdot-logo-light.svg" 
+                 title="Ir para a página inicial da Musicdot" 
+                 alt="Musicdot">
+        </a>
+
+        <nav>
+            <ul class="cabecalho__menu">
+                <li class="cabecalho__item-menu">
+                    <a href="sobre.html#Sobre"> Sobre </a>
+                </li>
+                <li class="cabecalho__item-menu">
+                    <a href="login.html#Entrar"> Entrar </a>
+                </li>
+                <li class="cabecalho__item-menu cabecalho__item-menu--matricular">
+                    <a href="matricule-se.html#Matricule-se"> Matricule-se </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="login-box">
+            <img src="img/musicdot-logo-light.svg" alt="MusicDot" class="login-box__logo">
+            <h1 class="login-box__titulo">MusicDot</h1>
+
+            <form class="login-box__form" action="#" method="post">
+                <label for="usuario">Login</label>
+                <input type="text" id="usuario" name="usuario" required placeholder="Digite seu usuário">
+
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" name="senha" required placeholder="Digite sua senha">
+
+                <a href="#" class="login-box__link">Esqueceu sua senha?</a>
+
+                <button type="submit" class="login-box__botao">Entrar</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Contato Centralizado -->
+    <section class="contato">
+        <h2 class="titulo">Contato</h2>
+
+        <div class="contato__secao">
+            <h3 class="subtitulo__contato">Correspondência</h3>
+            <small>(todos os dias, das 9h às 18h)</small>
+            <address class="contato__info">
+                AOVS Sistemas de Informática S.A<br>
+                Rua Vergueiro, 3185, 8º andar<br>
+                Vila Mariana<br>
+                São Paulo - SP
+            </address>
+        </div>
+
+        <div class="contato__secao contato__secao-telefone">
+            <h3 class="subtitulo__contato">Telefones</h3>
+            <small>(Segunda a Sexta-Feira, das 9h às 18h)</small>
+            <dl class="contato__info">
+                <dt class="contato__info-titulo">Pessoa Física</dt>
+                <dd class="contato__info-descricao"><a href="tel://114118-3319">(11) 4118-3319</a></dd>
+
+                <dt class="contato__info-titulo">Pessoa Jurídica:</dt>
+                <dd class="contato__info-descricao"><a href="tel://114118-7229">(11) 4118-7229</a></dd>
+            </dl>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="rodape">
+        <section class="rodape__secao rodape__secao--sobre">
+            <img class="rodape__logo" src="img/logo.svg" alt="Logo da MusicDot">
+            <p class="rodape__infos-empresa">
+                AOVS Sistemas de Informática S.A.<br>
+                CNPJ 05.555.382/0001-33<br>
+                Rua Vergueiro - São Paulo/SP<br>
+                Telefone (11) 4118-3319
+            </p>
+            <ul class="rodape__lista-midias-sociais">
+                <li><a href="https://www.facebook.com/musicdotonline"><img src="img/footer-icone-facebook.svg" alt="Facebook"></a></li>
+                <li><a href="https://www.youtube.com/user/musicdotonline"><img src="img/footer-icone-youtube.svg" alt="YouTube"></a></li>
+                <li><a href="https://www.instagram.com/musicdotonline/"><img src="img/footer-icone-instagram.svg" alt="Instagram"></a></li>
+            </ul>
+        </section>
+
+    
+
+        <section class="rodape__secao rodape__secao--links">
+            <h2 class="rodape__titulo">MusicDot</h2>
+            <nav>
+                <ul>
+                    <li><a href="#">Apostila</a></li>
+                    <li><a href="#">E-book</a></li>
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">Matricule-se</a></li>
+                    <li><a href="#">Perguntas frequentes</a></li>
+                    <li><a href="#">Para Escolas</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </section>
+
+        <section class="rodape__secao rodape__secao--newsletter">
+            <h2 class="rodape__titulo">Receba novidades e lançamentos</h2>
+            <form action="#" method="get" class="form-newsletter">
+                <label for="email-newsletter" class="form-newsletter__label">Seu email pessoal</label>
+                <input id="email-newsletter" name="email-newsletter" type="email" class="form-newsletter__campo">
+                <button type="submit" class="form-newsletter__botao">OK</button>
+            </form>
+        </section>
+    </footer>
+</body>
+</html>

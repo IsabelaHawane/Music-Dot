@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MusicDot | Matricule-se</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/matricule-se.css" />
+  </head>
+  <body>
+    <header class="cabecalho">
+      <a href="index.html">
+        <img
+          class="cabecalho__logo"
+          src="img/musicdot-logo-light.svg"
+          title="Ir para a página inicial da Musicdot"
+          alt="Musicdot"
+        />
+      </a>
+
+      <nav>
+        <ul class="cabecalho__menu">
+          <li class="cabecalho__item-menu">
+            <a href="sobre.html#Sobre"> Sobre </a>
+          </li>
+          <li class="cabecalho__item-menu">
+            <a href="login.html#Entrar"> Entrar </a>
+          </li>
+          <li class="cabecalho__item-menu cabecalho__item-menu--matricular">
+            <a href="matricule-se.html#Matricule-se"> Matricule-se </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="chat-container">
+        <div class="chat-box" id="chat-box"></div>
+
+        <form id="chat-form" class="chat-form">
+          <input
+            type="text"
+            id="chat-input"
+            placeholder="Digite sua resposta..."
+            autocomplete="off"
+            required
+          />
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </main>
+
+    <script src="js/matricule-se.js"></script>
+  </body>
+</html>
