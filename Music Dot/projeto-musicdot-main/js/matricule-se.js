@@ -2,7 +2,7 @@ const chatBox = document.getElementById("chat-box");
 const chatForm = document.getElementById("chat-form");
 const chatInput = document.getElementById("chat-input");
 
-// Perguntas do fluxo
+
 const perguntas = [
   "Olá! Seja bem-vindo à MusicDot. Qual é o seu nome?",
   "Prazer em te conhecer! Quantos anos você tem?",
@@ -28,7 +28,7 @@ chatForm.addEventListener("submit", (e) => {
   const userInput = chatInput.value.trim();
   if (!userInput) return;
 
-  // Mostra a resposta do usuário
+
   addMessage(userInput, "user");
   chatInput.value = "";
 
@@ -42,4 +42,5 @@ chatForm.addEventListener("submit", (e) => {
     chatInput.disabled = true;
     chatInput.placeholder = "Conversa finalizada.";
   }
+
 });
