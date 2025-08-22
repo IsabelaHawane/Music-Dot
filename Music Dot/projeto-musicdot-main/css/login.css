@@ -57,7 +57,7 @@
   background-color: #f3f7ff;
 }
 
-/* Link esqueceu a senha */
+
 .login-box__link {
   font-size: 0.9rem;
   text-align: right;
@@ -73,7 +73,7 @@
   font-size: 1rem;
   font-weight: bold;
   color: #fff;
-  background-color: #0056ff; /* azul estilo do print */
+  background-color: #0056ff; 
   cursor: pointer;
   transition: background 0.3s ease;
 }
@@ -112,3 +112,4 @@
 .cabecalho__item-menu a:hover {
   color: #b81414;
 }
+
